@@ -15,7 +15,7 @@ I wanted to move past temporary data structures and learn how to actually save d
 
 ## How To Get This Running
 
-First, make sure you have Python installed. Then, grab Flask using your terminal:
+First, make sure you have Python installed. Then, grab Flask using your terminal
 
 ```bash
 pip install Flask
@@ -54,6 +54,7 @@ Example data package to send:
   "author": "Paulo Coelho",
   "genre": "Adventure"
 }
+
 
 ###--------------------------
 
