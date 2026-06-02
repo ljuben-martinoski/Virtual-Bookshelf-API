@@ -15,7 +15,7 @@ I wanted to move past temporary data structures and learn how to actually save d
 
 ## How To Get This Running
 
-First, make sure you have Python installed. Then, grab Flask using your terminal:
+First, make sure you have Python installed. Then, grab Flask using your terminal
 
 ```bash
 pip install Flask
@@ -55,11 +55,10 @@ Example data package to send:
   "genre": "Adventure"
 }
 
-```
 --------------------------
 
 
-Behind the scenes, SQLite creates a local file called bookshelf.db. It has a single table called books structured like this:
+###Behind the scenes, SQLite creates a local file called bookshelf.db. It has a single table called books structured like this:
 
 id: A number that automatically counts up by itself (1, 2, 3...) so every book has a unique tracking number.
 
@@ -70,7 +69,7 @@ author: The text field for the writer.
 genre: The text field to categorize the book.
 
 
-  ===What I Learned Making This===
+##  ===What I Learned Making This===
 How to use Flask decorators (@app.route) to control web traffic.
 
 The importance of clean Python indentation (a misplaced loop block can hide your data!).
