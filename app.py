@@ -76,6 +76,7 @@ def get_all_books():
             "id": row[0],   # row[0] means the first column
             "title": row[1],  # row[1] means the second column
             "author": row[2],  # row[2] means the third column
+            "genre": row[3]
         }
         formated_books.append(book_dictionary)  # adding the dictionary to the list
 
